@@ -3,6 +3,7 @@ import random
 from collections import deque
 import numpy as np
 
+#class to train model
 class DQNAgent:
     def __init__(self, sess, state_size, action_size, learning_rate=1e-3, epsilon=1, epsilon_decay=0.995, epsilon_min=0.01, gamma=0.95, min_memory=32):
         self.sess = sess #store tensorflow session
