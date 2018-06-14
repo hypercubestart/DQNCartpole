@@ -1,4 +1,4 @@
-#CODE TO TRAIN MODEL
+#CODE TO TEST MODEL
 import gym
 import tensorflow as tf
 import numpy as np
